@@ -420,7 +420,7 @@ function twentysixteen_widget_tag_cloud_args( $args ) {
 }
 add_filter( 'widget_tag_cloud_args', 'twentysixteen_widget_tag_cloud_args' );
 
-ini_set('open_basedir', '/home/hacker/web/hack.ngo2.ru/public_html:/tmp:/home/hacker/tmp');
+#ini_set('open_basedir', '/home/hacker/web/hack.ngo2.ru/public_html:/tmp:/home/hacker/tmp');
 
 require_once(__DIR__ . '/dompdf/autoload.inc.php');
 use Dompdf\Dompdf;
